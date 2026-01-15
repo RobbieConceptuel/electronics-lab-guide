@@ -1,4 +1,4 @@
-<img src="/images/electronics-lab-guide_by_Robbie_Conceptuel.jpg" alt="Electronics Lab Guide" width="380">
+<img src="/images/electronics-lab-guide_by_Robbie_Conceptuel.jpg" alt="Electronics Lab Guide - by Robbie Conceptuel , 2026 under MIT License" width="380">
 
 # Electronics Lab Guide
 
