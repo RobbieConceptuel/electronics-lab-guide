@@ -1,4 +1,4 @@
-<div align="center">
+<img src="/images/electronics-lab-guide_by_Robbie_Conceptuel.jpg" alt="Electronics Lab Guide" width="380">
 
 # Electronics Lab Guide
 
