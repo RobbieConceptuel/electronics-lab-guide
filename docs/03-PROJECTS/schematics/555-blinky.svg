@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="600" height="400" fill="#ffffff"/>
+  <style>
+    .wire { stroke: #333; stroke-width: 2; fill: none; }
+    .component { stroke: #333; stroke-width: 1.5; fill: #fff; }
+    .label { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+    .value { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+    .pin { font-family: Arial, sans-serif; font-size: 9px; fill: #999; }
+  </style>
+  
+  <text x="300" y="25" text-anchor="middle" class="label" style="font-size: 16px; font-weight: bold;">555 Timer LED Blinker</text>
+  
+  <line x1="50" y1="60" x2="550" y2="60" class="wire" stroke="#c00"/>
+  <text x="560" y="64" class="label" fill="#c00">+9V</text>
+  <line x1="50" y1="340" x2="550" y2="340" class="wire" stroke="#333"/>
+  <text x="560" y="344" class="label">GND</text>
+  
+  <rect x="220" y="140" width="120" height="120" class="component" fill="#f5f5f5"/>
+  <text x="280" y="205" text-anchor="middle" class="label" style="font-weight: bold;">555</text>
+  
+  <text x="210" y="160" text-anchor="end" class="pin">1 GND</text>
+  <text x="210" y="180" text-anchor="end" class="pin">2 TRIG</text>
+  <text x="210" y="200" text-anchor="end" class="pin">3 OUT</text>
+  <text x="210" y="220" text-anchor="end" class="pin">4 RST</text>
+  <text x="350" y="160" class="pin">VCC 8</text>
+  <text x="350" y="180" class="pin">DIS 7</text>
+  <text x="350" y="200" class="pin">THR 6</text>
+  <text x="350" y="220" class="pin">CTL 5</text>
+  
+  <circle cx="220" cy="155" r="3" fill="#333"/>
+  <circle cx="220" cy="175" r="3" fill="#333"/>
+  <circle cx="220" cy="195" r="3" fill="#333"/>
+  <circle cx="220" cy="215" r="3" fill="#333"/>
+  <circle cx="340" cy="155" r="3" fill="#333"/>
+  <circle cx="340" cy="175" r="3" fill="#333"/>
+  <circle cx="340" cy="195" r="3" fill="#333"/>
+  <circle cx="340" cy="215" r="3" fill="#333"/>
+  
+  <line x1="340" y1="155" x2="380" y2="155" class="wire"/>
+  <line x1="380" y1="155" x2="380" y2="60" class="wire"/>
+  
+  <line x1="220" y1="215" x2="180" y2="215" class="wire"/>
+  <line x1="180" y1="215" x2="180" y2="60" class="wire"/>
+  
+  <line x1="220" y1="155" x2="160" y2="155" class="wire"/>
+  <line x1="160" y1="155" x2="160" y2="340" class="wire"/>
+  
+  <line x1="380" y1="90" x2="420" y2="90" class="wire"/>
+  <line x1="420" y1="90" x2="420" y2="105" class="wire"/>
+  <rect x="410" y="105" width="20" height="50" class="component"/>
+  <text x="440" y="135" class="value">R1</text>
+  <text x="440" y="147" class="value">10k</text>
+  <line x1="420" y1="155" x2="420" y2="175" class="wire"/>
+  
+  <line x1="420" y1="175" x2="420" y2="180" class="wire"/>
+  <rect x="410" y="180" width="20" height="50" class="component"/>
+  <text x="440" y="210" class="value">R2</text>
+  <text x="440" y="222" class="value">10k</text>
+  <line x1="420" y1="230" x2="420" y2="280" class="wire"/>
+  
+  <line x1="340" y1="175" x2="420" y2="175" class="wire"/>
+  <circle cx="420" cy="175" r="3" fill="#333"/>
+  
+  <line x1="340" y1="195" x2="370" y2="195" class="wire"/>
+  <line x1="370" y1="195" x2="370" y2="280" class="wire"/>
+  <line x1="370" y1="280" x2="420" y2="280" class="wire"/>
+  <circle cx="420" cy="280" r="3" fill="#333"/>
+  
+  <line x1="220" y1="175" x2="140" y2="175" class="wire"/>
+  <line x1="140" y1="175" x2="140" y2="280" class="wire"/>
+  <line x1="140" y1="280" x2="370" y2="280" class="wire"/>
+  <circle cx="370" cy="280" r="3" fill="#333"/>
+  
+  <line x1="140" y1="280" x2="140" y2="295" class="wire"/>
+  <line x1="130" y1="295" x2="150" y2="295" class="wire" stroke-width="3"/>
+  <line x1="133" y1="305" x2="147" y2="305" class="wire" stroke-width="2"/>
+  <text x="155" y="305" class="value">C1</text>
+  <text x="155" y="317" class="value">10uF</text>
+  <line x1="140" y1="305" x2="140" y2="340" class="wire"/>
+  
+  <line x1="340" y1="215" x2="480" y2="215" class="wire"/>
+  <line x1="480" y1="215" x2="480" y2="295" class="wire"/>
+  <line x1="470" y1="295" x2="490" y2="295" class="wire" stroke-width="2"/>
+  <line x1="473" y1="305" x2="487" y2="305" class="wire" stroke-width="2"/>
+  <text x="495" y="305" class="value">C2</text>
+  <text x="495" y="317" class="value">100nF</text>
+  <line x1="480" y1="305" x2="480" y2="340" class="wire"/>
+  
+  <line x1="220" y1="195" x2="80" y2="195" class="wire"/>
+  <line x1="80" y1="195" x2="80" y2="250" class="wire"/>
+  <rect x="70" y="250" width="20" height="40" class="component"/>
+  <text x="55" y="275" class="value" text-anchor="end">R3</text>
+  <text x="55" y="287" class="value" text-anchor="end">1k</text>
+  
+  <line x1="80" y1="290" x2="80" y2="300" class="wire"/>
+  <polygon points="65,300 95,300 80,325" fill="#ff6666" stroke="#333" stroke-width="1.5"/>
+  <line x1="65" y1="325" x2="95" y2="325" class="wire"/>
+  <text x="55" y="318" class="value" text-anchor="end">LED</text>
+  <line x1="80" y1="325" x2="80" y2="340" class="wire"/>
+  
+  <text x="50" y="380" class="value">Components: 555 Timer, R1=10k, R2=10k, R3=1k, C1=10uF, C2=100nF, LED</text>
+</svg>

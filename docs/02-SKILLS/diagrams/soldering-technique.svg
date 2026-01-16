@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <rect width="600" height="250" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+    .step { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="300" y="20" text-anchor="middle" class="title">Soldering Steps</text>
+  
+  <!-- Step 1: Clean tip -->
+  <g transform="translate(30, 40)">
+    <text x="50" y="0" text-anchor="middle" class="label">1. Clean Tip</text>
+    <rect x="20" y="15" width="60" height="40" fill="#d4a574" rx="5"/>
+    <text x="50" y="40" text-anchor="middle" class="step">Brass</text>
+    <line x1="80" y1="35" x2="100" y2="35" stroke="#333" stroke-width="3"/>
+    <polygon points="100,30 100,40 85,35" fill="#666"/>
+    <text x="50" y="75" text-anchor="middle" class="step">Wipe on brass</text>
+  </g>
+  
+  <!-- Step 2: Heat joint -->
+  <g transform="translate(140, 40)">
+    <text x="50" y="0" text-anchor="middle" class="label">2. Heat Joint</text>
+    <rect x="30" y="50" width="40" height="8" fill="#4a4" rx="1"/>
+    <line x1="45" y1="35" x2="50" y2="50" stroke="#333" stroke-width="2"/>
+    <line x1="80" y1="15" x2="50" y2="45" stroke="#666" stroke-width="4"/>
+    <circle cx="50" cy="50" r="8" fill="#ffa500" opacity="0.5"/>
+    <text x="50" y="75" text-anchor="middle" class="step">Touch pad + lead</text>
+    <text x="50" y="87" text-anchor="middle" class="step">Wait 2-3 sec</text>
+  </g>
+  
+  <!-- Step 3: Add solder -->
+  <g transform="translate(250, 40)">
+    <text x="50" y="0" text-anchor="middle" class="label">3. Add Solder</text>
+    <rect x="30" y="50" width="40" height="8" fill="#4a4" rx="1"/>
+    <line x1="45" y1="35" x2="50" y2="50" stroke="#333" stroke-width="2"/>
+    <line x1="80" y1="15" x2="50" y2="45" stroke="#666" stroke-width="4"/>
+    <line x1="20" y1="30" x2="45" y2="50" stroke="#c0c0c0" stroke-width="2"/>
+    <circle cx="50" cy="52" r="6" fill="#c0c0c0"/>
+    <text x="50" y="75" text-anchor="middle" class="step">Feed to joint</text>
+    <text x="50" y="87" text-anchor="middle" class="step">(not to tip)</text>
+  </g>
+  
+  <!-- Step 4: Remove -->
+  <g transform="translate(360, 40)">
+    <text x="50" y="0" text-anchor="middle" class="label">4. Remove</text>
+    <rect x="30" y="50" width="40" height="8" fill="#4a4" rx="1"/>
+    <line x1="45" y1="35" x2="50" y2="50" stroke="#333" stroke-width="2"/>
+    <line x1="90" y1="10" x2="70" y2="30" stroke="#666" stroke-width="4"/>
+    <path d="M 43,48 Q 50,42 57,48 L 55,55 Q 50,52 45,55 Z" fill="#c0c0c0"/>
+    <text x="50" y="75" text-anchor="middle" class="step">Pull away iron</text>
+    <text x="50" y="87" text-anchor="middle" class="step">then solder</text>
+  </g>
+  
+  <!-- Step 5: Cool -->
+  <g transform="translate(470, 40)">
+    <text x="50" y="0" text-anchor="middle" class="label">5. Let Cool</text>
+    <rect x="30" y="50" width="40" height="8" fill="#4a4" rx="1"/>
+    <line x1="45" y1="35" x2="50" y2="50" stroke="#333" stroke-width="2"/>
+    <path d="M 43,48 Q 50,42 57,48 L 55,55 Q 50,52 45,55 Z" fill="#c0c0c0"/>
+    <text x="50" y="75" text-anchor="middle" class="step">Do not touch!</text>
+    <text x="50" y="87" text-anchor="middle" class="step">Wait 3 sec</text>
+  </g>
+  
+  <!-- Result -->
+  <g transform="translate(200, 130)">
+    <text x="100" y="0" text-anchor="middle" class="title">Good Joint vs Bad Joint</text>
+    
+    <!-- Good joint -->
+    <g transform="translate(0, 20)">
+      <rect x="20" y="40" width="60" height="6" fill="#4a4"/>
+      <line x1="50" y1="25" x2="50" y2="40" stroke="#333" stroke-width="2"/>
+      <path d="M 35,40 Q 50,30 65,40 L 62,46 Q 50,44 38,46 Z" fill="#c0c0c0"/>
+      <text x="50" y="70" text-anchor="middle" class="label" fill="#080">GOOD</text>
+      <text x="50" y="82" text-anchor="middle" class="step">Shiny, concave</text>
+    </g>
+    
+    <!-- Bad joint -->
+    <g transform="translate(140, 20)">
+      <rect x="20" y="40" width="60" height="6" fill="#4a4"/>
+      <line x1="50" y1="25" x2="50" y2="40" stroke="#333" stroke-width="2"/>
+      <ellipse cx="50" cy="38" rx="12" ry="10" fill="#999"/>
+      <text x="50" y="70" text-anchor="middle" class="label" fill="#c00">BAD</text>
+      <text x="50" y="82" text-anchor="middle" class="step">Dull, blobby</text>
+    </g>
+  </g>
+</svg>

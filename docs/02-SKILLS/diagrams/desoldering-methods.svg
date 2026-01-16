@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 220">
+  <rect width="600" height="220" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 12px; fill: #333; font-weight: bold; }
+    .step { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="300" y="20" text-anchor="middle" class="title">Desoldering Methods</text>
+  
+  <!-- Method 1: Solder Wick -->
+  <g transform="translate(30, 40)">
+    <text x="80" y="0" text-anchor="middle" class="label">Solder Wick</text>
+    <rect x="40" y="70" width="80" height="20" fill="#2d5016" rx="2"/>
+    <rect x="70" y="75" width="20" height="10" fill="#c9a227"/>
+    <ellipse cx="80" cy="77" rx="10" ry="6" fill="#c0c0c0"/>
+    <rect x="60" y="55" width="40" height="8" fill="#b87333" rx="1"/>
+    <line x1="60" y1="59" x2="100" y2="59" stroke="#8b5a2b" stroke-width="1"/>
+    <line x1="60" y1="61" x2="100" y2="61" stroke="#8b5a2b" stroke-width="1"/>
+    <line x1="100" y1="30" x2="80" y2="55" stroke="#666" stroke-width="4"/>
+    <text x="80" y="110" text-anchor="middle" class="step">Press wick on joint</text>
+    <text x="80" y="122" text-anchor="middle" class="step">Heat through wick</text>
+    <text x="80" y="134" text-anchor="middle" class="step">Solder absorbs up</text>
+  </g>
+  
+  <!-- Method 2: Desoldering Pump -->
+  <g transform="translate(220, 40)">
+    <text x="80" y="0" text-anchor="middle" class="label">Desoldering Pump</text>
+    <rect x="40" y="70" width="80" height="20" fill="#2d5016" rx="2"/>
+    <rect x="70" y="75" width="20" height="10" fill="#c9a227"/>
+    <ellipse cx="80" cy="77" rx="10" ry="6" fill="#c0c0c0"/>
+    <rect x="85" y="40" width="50" height="20" fill="#3366cc" rx="3"/>
+    <rect x="80" y="55" width="15" height="15" fill="#444"/>
+    <circle cx="88" cy="62" r="5" fill="#222"/>
+    <line x1="40" y1="45" x2="75" y2="72" stroke="#666" stroke-width="4"/>
+    <text x="80" y="110" text-anchor="middle" class="step">Heat joint with iron</text>
+    <text x="80" y="122" text-anchor="middle" class="step">Position pump close</text>
+    <text x="80" y="134" text-anchor="middle" class="step">Trigger - sucks solder</text>
+  </g>
+  
+  <!-- Method 3: Hot Air -->
+  <g transform="translate(410, 40)">
+    <text x="80" y="0" text-anchor="middle" class="label">Hot Air</text>
+    <rect x="40" y="70" width="80" height="20" fill="#2d5016" rx="2"/>
+    <rect x="55" y="60" width="50" height="20" fill="#1a1a1a" rx="1"/>
+    <line x1="60" y1="80" x2="60" y2="90" stroke="#c0c0c0" stroke-width="2"/>
+    <line x1="70" y1="80" x2="70" y2="90" stroke="#c0c0c0" stroke-width="2"/>
+    <line x1="90" y1="80" x2="90" y2="90" stroke="#c0c0c0" stroke-width="2"/>
+    <line x1="100" y1="80" x2="100" y2="90" stroke="#c0c0c0" stroke-width="2"/>
+    <rect x="70" y="25" width="20" height="25" fill="#ff6600" rx="2"/>
+    <path d="M 75,52 Q 72,58 75,64" stroke="#ff9900" stroke-width="2" fill="none"/>
+    <path d="M 80,52 Q 77,58 80,64" stroke="#ff9900" stroke-width="2" fill="none"/>
+    <path d="M 85,52 Q 82,58 85,64" stroke="#ff9900" stroke-width="2" fill="none"/>
+    <text x="80" y="110" text-anchor="middle" class="step">Heat all pins at once</text>
+    <text x="80" y="122" text-anchor="middle" class="step">Move in circles</text>
+    <text x="80" y="134" text-anchor="middle" class="step">Lift when molten</text>
+  </g>
+</svg>

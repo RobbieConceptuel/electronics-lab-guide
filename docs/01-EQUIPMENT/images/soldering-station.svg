@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="200" y="25" text-anchor="middle" class="title">Soldering Station</text>
+  
+  <!-- Base unit -->
+  <rect x="100" y="180" width="200" height="80" fill="#2a2a2a" rx="5"/>
+  <rect x="110" y="190" width="80" height="40" fill="#111" rx="3"/>
+  <text x="150" y="215" text-anchor="middle" fill="#0f0" font-family="monospace" font-size="18">350°C</text>
+  
+  <!-- Knob -->
+  <circle cx="250" cy="220" r="20" fill="#444"/>
+  <circle cx="250" cy="220" r="15" fill="#333"/>
+  <line x1="250" y1="205" x2="250" y2="212" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Iron holder -->
+  <rect x="320" y="160" width="40" height="100" fill="#444" rx="3"/>
+  <ellipse cx="340" cy="165" rx="18" ry="8" fill="#333"/>
+  
+  <!-- Soldering iron -->
+  <rect x="280" y="80" width="120" height="12" fill="#333" rx="2"/>
+  <rect x="270" y="78" width="15" height="16" fill="#666" rx="2"/>
+  <polygon points="400,84 400,88 420,86" fill="#c0c0c0"/>
+  
+  <!-- Cord -->
+  <path d="M 100,220 Q 50,220 50,180 Q 50,140 80,140" stroke="#555" stroke-width="4" fill="none"/>
+  
+  <!-- Labels -->
+  <text x="150" y="250" text-anchor="middle" class="label">Temperature Display</text>
+  <text x="250" y="250" text-anchor="middle" class="label">Control Knob</text>
+  <text x="340" y="275" text-anchor="middle" class="label">Iron Holder</text>
+</svg>

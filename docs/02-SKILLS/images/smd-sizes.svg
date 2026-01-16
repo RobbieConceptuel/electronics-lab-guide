@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect width="500" height="200" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+    .size { font-family: Arial, sans-serif; font-size: 12px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="250" y="25" text-anchor="middle" class="title">SMD Component Sizes (to scale)</text>
+  
+  <!-- 1206 -->
+  <g transform="translate(50, 70)">
+    <rect x="0" y="0" width="32" height="16" fill="#1a1a1a" rx="1"/>
+    <rect x="1" y="2" width="8" height="12" fill="#c0c0c0"/>
+    <rect x="23" y="2" width="8" height="12" fill="#c0c0c0"/>
+    <text x="16" y="45" text-anchor="middle" class="size">1206</text>
+    <text x="16" y="58" text-anchor="middle" class="label">3.2 x 1.6mm</text>
+    <text x="16" y="71" text-anchor="middle" class="label" fill="#080">Easy</text>
+  </g>
+  
+  <!-- 0805 -->
+  <g transform="translate(130, 70)">
+    <rect x="4" y="2" width="20" height="12" fill="#1a1a1a" rx="1"/>
+    <rect x="5" y="4" width="5" height="8" fill="#c0c0c0"/>
+    <rect x="18" y="4" width="5" height="8" fill="#c0c0c0"/>
+    <text x="16" y="45" text-anchor="middle" class="size">0805</text>
+    <text x="16" y="58" text-anchor="middle" class="label">2.0 x 1.25mm</text>
+    <text x="16" y="71" text-anchor="middle" class="label" fill="#080">Easy</text>
+  </g>
+  
+  <!-- 0603 -->
+  <g transform="translate(210, 70)">
+    <rect x="6" y="4" width="16" height="8" fill="#1a1a1a" rx="1"/>
+    <rect x="7" y="5" width="4" height="6" fill="#c0c0c0"/>
+    <rect x="17" y="5" width="4" height="6" fill="#c0c0c0"/>
+    <text x="16" y="45" text-anchor="middle" class="size">0603</text>
+    <text x="16" y="58" text-anchor="middle" class="label">1.6 x 0.8mm</text>
+    <text x="16" y="71" text-anchor="middle" class="label" fill="#f90">Medium</text>
+  </g>
+  
+  <!-- 0402 -->
+  <g transform="translate(290, 70)">
+    <rect x="8" y="5" width="10" height="5" fill="#1a1a1a" rx="0.5"/>
+    <rect x="9" y="6" width="2" height="3" fill="#c0c0c0"/>
+    <rect x="15" y="6" width="2" height="3" fill="#c0c0c0"/>
+    <text x="16" y="45" text-anchor="middle" class="size">0402</text>
+    <text x="16" y="58" text-anchor="middle" class="label">1.0 x 0.5mm</text>
+    <text x="16" y="71" text-anchor="middle" class="label" fill="#c00">Hard</text>
+  </g>
+  
+  <!-- 0201 -->
+  <g transform="translate(370, 70)">
+    <rect x="10" y="6" width="6" height="3" fill="#1a1a1a" rx="0.3"/>
+    <text x="16" y="45" text-anchor="middle" class="size">0201</text>
+    <text x="16" y="58" text-anchor="middle" class="label">0.6 x 0.3mm</text>
+    <text x="16" y="71" text-anchor="middle" class="label" fill="#c00">Expert</text>
+  </g>
+  
+  <!-- Scale reference -->
+  <g transform="translate(420, 120)">
+    <line x1="0" y1="0" x2="38" y2="0" stroke="#333" stroke-width="1"/>
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#333" stroke-width="1"/>
+    <line x1="38" y1="-5" x2="38" y2="5" stroke="#333" stroke-width="1"/>
+    <text x="19" y="15" text-anchor="middle" class="label">1cm</text>
+  </g>
+</svg>

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <rect width="300" height="400" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="150" y="25" text-anchor="middle" class="title">Digital Multimeter</text>
+  
+  <!-- Body -->
+  <rect x="50" y="40" width="200" height="320" fill="#f5a623" rx="15"/>
+  <rect x="60" y="50" width="180" height="300" fill="#1a1a1a" rx="10"/>
+  
+  <!-- Display -->
+  <rect x="80" y="70" width="140" height="60" fill="#a8c8a8" rx="3"/>
+  <text x="150" y="110" text-anchor="middle" font-family="monospace" font-size="28" fill="#222">12.45</text>
+  <text x="200" y="90" font-family="Arial" font-size="12" fill="#222">V DC</text>
+  
+  <!-- Rotary dial -->
+  <circle cx="150" cy="200" r="55" fill="#2a2a2a"/>
+  <circle cx="150" cy="200" r="45" fill="#333"/>
+  
+  <!-- Dial markings -->
+  <text x="150" y="160" text-anchor="middle" fill="#fff" font-size="8">OFF</text>
+  <text x="190" y="175" text-anchor="middle" fill="#fff" font-size="8">V~</text>
+  <text x="200" y="200" text-anchor="middle" fill="#fff" font-size="8">V-</text>
+  <text x="190" y="225" text-anchor="middle" fill="#fff" font-size="8">mV</text>
+  <text x="150" y="240" text-anchor="middle" fill="#fff" font-size="8">Ω</text>
+  <text x="110" y="225" text-anchor="middle" fill="#fff" font-size="8">◄)))</text>
+  <text x="100" y="200" text-anchor="middle" fill="#fff" font-size="8">A</text>
+  
+  <!-- Dial pointer -->
+  <line x1="150" y1="200" x2="185" y2="185" stroke="#fff" stroke-width="3"/>
+  
+  <!-- Probe jacks -->
+  <circle cx="100" cy="310" r="12" fill="#222"/>
+  <circle cx="100" cy="310" r="8" fill="#111"/>
+  <text x="100" y="335" text-anchor="middle" class="label">COM</text>
+  
+  <circle cx="150" cy="310" r="12" fill="#c00"/>
+  <circle cx="150" cy="310" r="8" fill="#900"/>
+  <text x="150" y="335" text-anchor="middle" class="label">V/Ω</text>
+  
+  <circle cx="200" cy="310" r="12" fill="#c00"/>
+  <circle cx="200" cy="310" r="8" fill="#900"/>
+  <text x="200" y="335" text-anchor="middle" class="label">A</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect width="500" height="300" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="250" y="25" text-anchor="middle" class="title">5V Power Supply</text>
+  
+  <!-- Breadboard -->
+  <rect x="80" y="50" width="340" height="180" fill="#f5f5dc" rx="5"/>
+  
+  <!-- 7805 regulator -->
+  <rect x="200" y="100" width="40" height="50" fill="#1a1a1a" rx="2"/>
+  <rect x="195" y="90" width="50" height="15" fill="#888"/>
+  <text x="220" y="130" text-anchor="middle" fill="#888" font-size="8">7805</text>
+  
+  <!-- Input capacitor -->
+  <rect x="130" y="110" width="20" height="30" fill="#1e90ff"/>
+  <text x="140" y="155" text-anchor="middle" class="label">100uF</text>
+  
+  <!-- Output capacitor -->
+  <rect x="290" y="110" width="15" height="25" fill="#1e90ff"/>
+  <text x="297" y="150" text-anchor="middle" class="label">10uF</text>
+  
+  <!-- LED -->
+  <ellipse cx="350" cy="120" rx="6" ry="10" fill="#44ff44"/>
+  
+  <!-- USB connector -->
+  <rect x="380" y="100" width="30" height="40" fill="#888" rx="2"/>
+  <rect x="385" y="110" width="20" height="20" fill="#333"/>
+  <text x="395" y="155" text-anchor="middle" class="label">USB</text>
+  
+  <!-- Wires -->
+  <line x1="100" y1="80" x2="100" y2="200" stroke="#c00" stroke-width="2"/>
+  <line x1="100" y1="120" x2="130" y2="120" stroke="#c00" stroke-width="2"/>
+  <line x1="150" y1="120" x2="200" y2="120" stroke="#c00" stroke-width="2"/>
+  <line x1="240" y1="120" x2="290" y2="120" stroke="#0a0" stroke-width="2"/>
+  <line x1="305" y1="120" x2="350" y2="120" stroke="#0a0" stroke-width="2"/>
+  <line x1="350" y1="130" x2="350" y2="200" stroke="#333" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="100" y="70" text-anchor="middle" class="label" fill="#c00">9-12V IN</text>
+  <text x="350" y="70" text-anchor="middle" class="label" fill="#0a0">5V OUT</text>
+  
+  <!-- Arrow -->
+  <path d="M 170,80 L 270,80" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="270,75 280,80 270,85" fill="#666"/>
+  <text x="220" y="75" text-anchor="middle" class="label">Regulated</text>
+</svg>

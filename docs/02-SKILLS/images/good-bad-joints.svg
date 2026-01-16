@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
+  <rect width="500" height="250" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="250" y="25" text-anchor="middle" class="title">Solder Joint Quality</text>
+  
+  <!-- Good joint -->
+  <g transform="translate(60, 60)">
+    <text x="50" y="0" text-anchor="middle" class="label" fill="#080" style="font-weight:bold">GOOD</text>
+    <rect x="20" y="80" width="60" height="8" fill="#2d5016"/>
+    <rect x="35" y="75" width="30" height="18" fill="#c9a227"/>
+    <line x1="50" y1="30" x2="50" y2="75" stroke="#888" stroke-width="3"/>
+    <path d="M 35,80 Q 50,60 65,80 L 62,88 Q 50,85 38,88 Z" fill="#c0c0c0"/>
+    <text x="50" y="120" text-anchor="middle" class="label">Shiny</text>
+    <text x="50" y="135" text-anchor="middle" class="label">Concave shape</text>
+    <text x="50" y="150" text-anchor="middle" class="label">Good flow</text>
+  </g>
+  
+  <!-- Cold joint -->
+  <g transform="translate(180, 60)">
+    <text x="50" y="0" text-anchor="middle" class="label" fill="#c00" style="font-weight:bold">COLD JOINT</text>
+    <rect x="20" y="80" width="60" height="8" fill="#2d5016"/>
+    <rect x="35" y="75" width="30" height="18" fill="#c9a227"/>
+    <line x1="50" y1="30" x2="50" y2="75" stroke="#888" stroke-width="3"/>
+    <ellipse cx="50" cy="78" rx="14" ry="10" fill="#888"/>
+    <text x="50" y="120" text-anchor="middle" class="label">Dull/grainy</text>
+    <text x="50" y="135" text-anchor="middle" class="label">Lumpy surface</text>
+    <text x="50" y="150" text-anchor="middle" class="label">Not enough heat</text>
+  </g>
+  
+  <!-- Too much solder -->
+  <g transform="translate(300, 60)">
+    <text x="50" y="0" text-anchor="middle" class="label" fill="#c00" style="font-weight:bold">TOO MUCH</text>
+    <rect x="20" y="80" width="60" height="8" fill="#2d5016"/>
+    <rect x="35" y="75" width="30" height="18" fill="#c9a227"/>
+    <line x1="50" y1="30" x2="50" y2="65" stroke="#888" stroke-width="3"/>
+    <ellipse cx="50" cy="75" rx="18" ry="15" fill="#c0c0c0"/>
+    <text x="50" y="120" text-anchor="middle" class="label">Big blob</text>
+    <text x="50" y="135" text-anchor="middle" class="label">May bridge</text>
+    <text x="50" y="150" text-anchor="middle" class="label">Use solder wick</text>
+  </g>
+  
+  <!-- Bridge -->
+  <g transform="translate(420, 60)">
+    <text x="30" y="0" text-anchor="middle" class="label" fill="#c00" style="font-weight:bold">BRIDGE</text>
+    <rect x="0" y="80" width="60" height="8" fill="#2d5016"/>
+    <rect x="5" y="75" width="15" height="18" fill="#c9a227"/>
+    <rect x="40" y="75" width="15" height="18" fill="#c9a227"/>
+    <line x1="12" y1="50" x2="12" y2="75" stroke="#888" stroke-width="2"/>
+    <line x1="47" y1="50" x2="47" y2="75" stroke="#888" stroke-width="2"/>
+    <path d="M 5,80 L 55,80 L 55,85 L 5,85 Z" fill="#c0c0c0"/>
+    <text x="30" y="120" text-anchor="middle" class="label">Pins connected</text>
+    <text x="30" y="135" text-anchor="middle" class="label">Flux + drag</text>
+    <text x="30" y="150" text-anchor="middle" class="label">or solder wick</text>
+  </g>
+</svg>

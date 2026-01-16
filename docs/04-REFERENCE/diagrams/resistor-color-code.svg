@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect width="500" height="300" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+    .value { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+    .band-label { font-family: Arial, sans-serif; font-size: 9px; fill: #666; }
+  </style>
+  
+  <text x="250" y="20" text-anchor="middle" class="title">Resistor Color Code</text>
+  
+  <rect x="100" y="50" width="200" height="40" fill="#d4b896" rx="5"/>
+  <ellipse cx="100" cy="70" rx="10" ry="20" fill="#c9a87c"/>
+  <ellipse cx="300" cy="70" rx="10" ry="20" fill="#c9a87c"/>
+  
+  <line x1="50" y1="70" x2="90" y2="70" stroke="#888" stroke-width="3"/>
+  <line x1="310" y1="70" x2="350" y2="70" stroke="#888" stroke-width="3"/>
+  
+  <rect x="120" y="50" width="15" height="40" fill="#8B4513"/>
+  <rect x="150" y="50" width="15" height="40" fill="#000"/>
+  <rect x="180" y="50" width="15" height="40" fill="#FF0000"/>
+  <rect x="260" y="50" width="15" height="40" fill="#FFD700"/>
+  
+  <text x="127" y="105" text-anchor="middle" class="band-label">1st</text>
+  <text x="157" y="105" text-anchor="middle" class="band-label">2nd</text>
+  <text x="187" y="105" text-anchor="middle" class="band-label">Mult</text>
+  <text x="267" y="105" text-anchor="middle" class="band-label">Tol</text>
+  
+  <text x="200" y="130" text-anchor="middle" class="label">Example: Brown-Black-Red-Gold = 1 0 x100 = 1000 ohm = 1k</text>
+  
+  <g transform="translate(50, 150)">
+    <text x="0" y="0" class="label" font-weight="bold">Color</text>
+    <text x="80" y="0" class="label" font-weight="bold">Value</text>
+    <text x="140" y="0" class="label" font-weight="bold">Mult</text>
+    
+    <rect x="0" y="10" width="15" height="12" fill="#000"/>
+    <text x="20" y="20" class="value">Black</text>
+    <text x="80" y="20" class="value">0</text>
+    <text x="140" y="20" class="value">x1</text>
+    
+    <rect x="0" y="25" width="15" height="12" fill="#8B4513"/>
+    <text x="20" y="35" class="value">Brown</text>
+    <text x="80" y="35" class="value">1</text>
+    <text x="140" y="35" class="value">x10</text>
+    
+    <rect x="0" y="40" width="15" height="12" fill="#FF0000"/>
+    <text x="20" y="50" class="value">Red</text>
+    <text x="80" y="50" class="value">2</text>
+    <text x="140" y="50" class="value">x100</text>
+    
+    <rect x="0" y="55" width="15" height="12" fill="#FFA500"/>
+    <text x="20" y="65" class="value">Orange</text>
+    <text x="80" y="65" class="value">3</text>
+    <text x="140" y="65" class="value">x1k</text>
+    
+    <rect x="0" y="70" width="15" height="12" fill="#FFFF00" stroke="#ccc" stroke-width="1"/>
+    <text x="20" y="80" class="value">Yellow</text>
+    <text x="80" y="80" class="value">4</text>
+    <text x="140" y="80" class="value">x10k</text>
+  </g>
+  
+  <g transform="translate(250, 150)">
+    <text x="0" y="0" class="label" font-weight="bold">Color</text>
+    <text x="80" y="0" class="label" font-weight="bold">Value</text>
+    <text x="140" y="0" class="label" font-weight="bold">Mult</text>
+    
+    <rect x="0" y="10" width="15" height="12" fill="#008000"/>
+    <text x="20" y="20" class="value">Green</text>
+    <text x="80" y="20" class="value">5</text>
+    <text x="140" y="20" class="value">x100k</text>
+    
+    <rect x="0" y="25" width="15" height="12" fill="#0000FF"/>
+    <text x="20" y="35" class="value">Blue</text>
+    <text x="80" y="35" class="value">6</text>
+    <text x="140" y="35" class="value">x1M</text>
+    
+    <rect x="0" y="40" width="15" height="12" fill="#EE82EE"/>
+    <text x="20" y="50" class="value">Violet</text>
+    <text x="80" y="50" class="value">7</text>
+    <text x="140" y="50" class="value">x10M</text>
+    
+    <rect x="0" y="55" width="15" height="12" fill="#FFD700" stroke="#333" stroke-width="1"/>
+    <text x="20" y="65" class="value">Gold</text>
+    <text x="80" y="65" class="value">-</text>
+    <text x="140" y="65" class="value">x0.1 / 5%</text>
+    
+    <rect x="0" y="70" width="15" height="12" fill="#C0C0C0" stroke="#333" stroke-width="1"/>
+    <text x="20" y="80" class="value">Silver</text>
+    <text x="80" y="80" class="value">-</text>
+    <text x="140" y="80" class="value">x0.01 / 10%</text>
+  </g>
+</svg>

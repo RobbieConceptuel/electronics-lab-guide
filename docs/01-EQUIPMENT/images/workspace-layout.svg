@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="250" y="25" text-anchor="middle" class="title">Workspace Layout</text>
+  
+  <!-- Desk surface -->
+  <rect x="30" y="50" width="440" height="250" fill="#d4a574" rx="5"/>
+  
+  <!-- Silicone mat -->
+  <rect x="150" y="100" width="200" height="150" fill="#3a7ca5" rx="3"/>
+  <text x="250" y="180" text-anchor="middle" fill="#fff" class="label">Work Area</text>
+  <text x="250" y="195" text-anchor="middle" fill="#fff" class="label">(Silicone Mat)</text>
+  
+  <!-- Soldering station -->
+  <rect x="370" y="70" width="80" height="60" fill="#2a2a2a" rx="3"/>
+  <text x="410" y="145" text-anchor="middle" class="label">Soldering</text>
+  <text x="410" y="157" text-anchor="middle" class="label">Station</text>
+  
+  <!-- Fume extractor -->
+  <rect x="370" y="170" width="80" height="50" fill="#444" rx="3"/>
+  <circle cx="410" cy="195" r="15" fill="#333"/>
+  <text x="410" y="235" text-anchor="middle" class="label">Fume</text>
+  <text x="410" y="247" text-anchor="middle" class="label">Extractor</text>
+  
+  <!-- Tool holder -->
+  <rect x="50" y="70" width="80" height="100" fill="#8b7355" rx="3"/>
+  <text x="90" y="185" text-anchor="middle" class="label">Tools</text>
+  
+  <!-- Microscope -->
+  <rect x="50" y="190" width="60" height="50" fill="#333" rx="3"/>
+  <rect x="65" y="175" width="30" height="20" fill="#444" rx="2"/>
+  <text x="80" y="260" text-anchor="middle" class="label">Microscope</text>
+  
+  <!-- Component trays -->
+  <rect x="150" y="260" width="60" height="30" fill="#ddd" rx="2"/>
+  <rect x="220" y="260" width="60" height="30" fill="#ddd" rx="2"/>
+  <rect x="290" y="260" width="60" height="30" fill="#ddd" rx="2"/>
+  <text x="250" y="310" text-anchor="middle" class="label">Component Trays</text>
+</svg>

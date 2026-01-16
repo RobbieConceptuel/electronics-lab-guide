@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 200">
+  <rect width="450" height="200" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 12px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="225" y="20" text-anchor="middle" class="title">Multimeter Modes</text>
+  
+  <!-- Continuity -->
+  <g transform="translate(30, 40)">
+    <circle cx="40" cy="40" r="35" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    <path d="M 25,40 L 35,40 M 45,40 L 55,40" stroke="#333" stroke-width="2"/>
+    <path d="M 35,35 Q 40,30 45,35 Q 40,45 35,35" stroke="#333" stroke-width="2" fill="none"/>
+    <text x="40" y="95" text-anchor="middle" class="label">Continuity</text>
+    <text x="40" y="107" text-anchor="middle" class="label">Beeps if connected</text>
+  </g>
+  
+  <!-- DC Voltage -->
+  <g transform="translate(130, 40)">
+    <circle cx="40" cy="40" r="35" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    <text x="40" y="45" text-anchor="middle" font-family="Arial" font-size="16" fill="#333">V</text>
+    <line x1="50" y1="50" x2="58" y2="50" stroke="#333" stroke-width="2"/>
+    <text x="40" y="95" text-anchor="middle" class="label">DC Voltage</text>
+    <text x="40" y="107" text-anchor="middle" class="label">Batteries, circuits</text>
+  </g>
+  
+  <!-- Resistance -->
+  <g transform="translate(230, 40)">
+    <circle cx="40" cy="40" r="35" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    <text x="40" y="48" text-anchor="middle" font-family="Arial" font-size="20" fill="#333">Ω</text>
+    <text x="40" y="95" text-anchor="middle" class="label">Resistance</text>
+    <text x="40" y="107" text-anchor="middle" class="label">Check components</text>
+  </g>
+  
+  <!-- Diode -->
+  <g transform="translate(330, 40)">
+    <circle cx="40" cy="40" r="35" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+    <polygon points="30,45 50,35 50,55" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="50" y1="35" x2="50" y2="55" stroke="#333" stroke-width="2"/>
+    <text x="40" y="95" text-anchor="middle" class="label">Diode Test</text>
+    <text x="40" y="107" text-anchor="middle" class="label">LEDs, diodes</text>
+  </g>
+  
+  <text x="225" y="140" text-anchor="middle" class="label">Black probe to COM - Red probe to V/Ω</text>
+</svg>

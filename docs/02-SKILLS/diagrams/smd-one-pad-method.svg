@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200">
+  <rect width="600" height="200" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 11px; fill: #333; }
+    .step { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="300" y="20" text-anchor="middle" class="title">SMD One-Pad Method</text>
+  
+  <!-- Step 1: Tin one pad -->
+  <g transform="translate(30, 40)">
+    <text x="60" y="0" text-anchor="middle" class="label">1. Tin One Pad</text>
+    <rect x="20" y="60" width="80" height="30" fill="#2d5016" rx="2"/>
+    <rect x="30" y="70" width="20" height="10" fill="#c9a227"/>
+    <rect x="70" y="70" width="20" height="10" fill="#c9a227"/>
+    <ellipse cx="40" cy="72" rx="8" ry="5" fill="#c0c0c0"/>
+    <text x="60" y="110" text-anchor="middle" class="step">Add solder to</text>
+    <text x="60" y="122" text-anchor="middle" class="step">one pad only</text>
+  </g>
+  
+  <!-- Step 2: Position component -->
+  <g transform="translate(160, 40)">
+    <text x="60" y="0" text-anchor="middle" class="label">2. Position Part</text>
+    <rect x="20" y="60" width="80" height="30" fill="#2d5016" rx="2"/>
+    <rect x="30" y="70" width="20" height="10" fill="#c9a227"/>
+    <rect x="70" y="70" width="20" height="10" fill="#c9a227"/>
+    <ellipse cx="40" cy="72" rx="8" ry="5" fill="#c0c0c0"/>
+    <rect x="35" y="62" width="50" height="16" fill="#1a1a1a" rx="1"/>
+    <rect x="36" y="64" width="10" height="12" fill="#c0c0c0"/>
+    <rect x="74" y="64" width="10" height="12" fill="#c0c0c0"/>
+    <line x1="20" y1="40" x2="40" y2="65" stroke="#666" stroke-width="4"/>
+    <text x="60" y="110" text-anchor="middle" class="step">Reheat pad while</text>
+    <text x="60" y="122" text-anchor="middle" class="step">sliding part in</text>
+  </g>
+  
+  <!-- Step 3: Solder other pad -->
+  <g transform="translate(290, 40)">
+    <text x="60" y="0" text-anchor="middle" class="label">3. Solder Other Pad</text>
+    <rect x="20" y="60" width="80" height="30" fill="#2d5016" rx="2"/>
+    <rect x="30" y="70" width="20" height="10" fill="#c9a227"/>
+    <rect x="70" y="70" width="20" height="10" fill="#c9a227"/>
+    <ellipse cx="40" cy="72" rx="8" ry="5" fill="#c0c0c0"/>
+    <rect x="35" y="62" width="50" height="16" fill="#1a1a1a" rx="1"/>
+    <rect x="36" y="64" width="10" height="12" fill="#c0c0c0"/>
+    <rect x="74" y="64" width="10" height="12" fill="#c0c0c0"/>
+    <line x1="100" y1="40" x2="80" y2="65" stroke="#666" stroke-width="4"/>
+    <line x1="95" y1="80" x2="82" y2="72" stroke="#c0c0c0" stroke-width="2"/>
+    <text x="60" y="110" text-anchor="middle" class="step">Solder the</text>
+    <text x="60" y="122" text-anchor="middle" class="step">second pad</text>
+  </g>
+  
+  <!-- Step 4: Done -->
+  <g transform="translate(420, 40)">
+    <text x="60" y="0" text-anchor="middle" class="label">4. Done!</text>
+    <rect x="20" y="60" width="80" height="30" fill="#2d5016" rx="2"/>
+    <rect x="30" y="70" width="20" height="10" fill="#c9a227"/>
+    <rect x="70" y="70" width="20" height="10" fill="#c9a227"/>
+    <ellipse cx="40" cy="72" rx="8" ry="5" fill="#c0c0c0"/>
+    <ellipse cx="80" cy="72" rx="8" ry="5" fill="#c0c0c0"/>
+    <rect x="35" y="62" width="50" height="16" fill="#1a1a1a" rx="1"/>
+    <rect x="36" y="64" width="10" height="12" fill="#c0c0c0"/>
+    <rect x="74" y="64" width="10" height="12" fill="#c0c0c0"/>
+    <text x="60" y="110" text-anchor="middle" class="step">Touch up first</text>
+    <text x="60" y="122" text-anchor="middle" class="step">pad if needed</text>
+  </g>
+</svg>

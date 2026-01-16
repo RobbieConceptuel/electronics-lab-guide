@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect width="500" height="350" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="250" y="25" text-anchor="middle" class="title">555 Blinky on Breadboard</text>
+  
+  <!-- Breadboard -->
+  <rect x="50" y="50" width="400" height="250" fill="#f5f5dc" rx="5"/>
+  
+  <!-- Power rails -->
+  <rect x="60" y="60" width="380" height="20" fill="#ddd"/>
+  <line x1="60" y1="70" x2="440" y2="70" stroke="#c00" stroke-width="2"/>
+  <rect x="60" y="270" width="380" height="20" fill="#ddd"/>
+  <line x1="60" y1="280" x2="440" y2="280" stroke="#333" stroke-width="2"/>
+  
+  <!-- Main area -->
+  <rect x="60" y="90" width="380" height="170" fill="#e8e8d8"/>
+  
+  <!-- Center gap -->
+  <rect x="60" y="170" width="380" height="10" fill="#d0d0c0"/>
+  
+  <!-- 555 chip -->
+  <rect x="180" y="140" width="60" height="70" fill="#1a1a1a" rx="2"/>
+  <circle cx="195" cy="150" r="4" fill="#333"/>
+  <text x="210" y="180" text-anchor="middle" fill="#888" font-size="10">555</text>
+  
+  <!-- LED -->
+  <ellipse cx="120" cy="230" rx="8" ry="12" fill="#ff4444"/>
+  <line x1="120" y1="242" x2="120" y2="260" stroke="#888" stroke-width="2"/>
+  <line x1="120" y1="260" x2="120" y2="280" stroke="#888" stroke-width="1"/>
+  
+  <!-- Resistors -->
+  <rect x="280" y="100" width="8" height="30" fill="#d4a574"/>
+  <rect x="300" y="140" width="8" height="30" fill="#d4a574"/>
+  <rect x="100" y="190" width="8" height="30" fill="#d4a574"/>
+  
+  <!-- Capacitor -->
+  <rect x="340" y="200" width="15" height="25" fill="#1e90ff"/>
+  
+  <!-- Wires -->
+  <line x1="180" y1="70" x2="180" y2="145" stroke="#c00" stroke-width="2"/>
+  <line x1="240" y1="70" x2="240" y2="145" stroke="#c00" stroke-width="2"/>
+  <line x1="180" y1="205" x2="180" y2="280" stroke="#333" stroke-width="2"/>
+  
+  <!-- Labels -->
+  <text x="70" y="75" class="label" fill="#c00">+9V</text>
+  <text x="70" y="285" class="label">GND</text>
+  <text x="120" y="320" text-anchor="middle" class="label">LED</text>
+  <text x="210" y="320" text-anchor="middle" class="label">555 Timer</text>
+  <text x="340" y="320" text-anchor="middle" class="label">Capacitor</text>
+</svg>

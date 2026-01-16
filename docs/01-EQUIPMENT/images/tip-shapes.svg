@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <rect width="400" height="150" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 12px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="200" y="20" text-anchor="middle" class="title">Soldering Tip Shapes</text>
+  
+  <!-- Chisel tip -->
+  <g transform="translate(50, 40)">
+    <rect x="0" y="20" width="60" height="8" fill="#666"/>
+    <polygon points="60,20 60,28 80,26 80,22" fill="#c0c0c0"/>
+    <line x1="80" y1="22" x2="80" y2="26" stroke="#888" stroke-width="2"/>
+    <text x="40" y="50" text-anchor="middle" class="label">Chisel</text>
+    <text x="40" y="62" text-anchor="middle" class="label">Best all-around</text>
+  </g>
+  
+  <!-- Conical tip -->
+  <g transform="translate(160, 40)">
+    <rect x="0" y="20" width="60" height="8" fill="#666"/>
+    <polygon points="60,20 60,28 85,24" fill="#c0c0c0"/>
+    <text x="40" y="50" text-anchor="middle" class="label">Conical</text>
+    <text x="40" y="62" text-anchor="middle" class="label">Fine work</text>
+  </g>
+  
+  <!-- Knife tip -->
+  <g transform="translate(270, 40)">
+    <rect x="0" y="20" width="60" height="8" fill="#666"/>
+    <polygon points="60,18 60,30 85,30 75,18" fill="#c0c0c0"/>
+    <text x="40" y="50" text-anchor="middle" class="label">Knife</text>
+    <text x="40" y="62" text-anchor="middle" class="label">Drag soldering</text>
+  </g>
+  
+  <text x="200" y="90" text-anchor="middle" class="label">Use the biggest tip that fits - more contact = better heat transfer</text>
+</svg>

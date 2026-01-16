@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect width="400" height="200" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 12px; fill: #333; }
+    .value { font-family: Arial, sans-serif; font-size: 10px; fill: #666; }
+    .title { font-family: Arial, sans-serif; font-size: 14px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="200" y="20" text-anchor="middle" class="title">LED Polarity</text>
+  
+  <g transform="translate(50, 50)">
+    <text x="60" y="0" text-anchor="middle" class="label">LED Symbol</text>
+    
+    <polygon points="40,30 80,30 60,60" fill="none" stroke="#333" stroke-width="2"/>
+    <line x1="40" y1="60" x2="80" y2="60" stroke="#333" stroke-width="2"/>
+    <line x1="60" y1="20" x2="60" y2="30" stroke="#333" stroke-width="2"/>
+    <line x1="60" y1="60" x2="60" y2="70" stroke="#333" stroke-width="2"/>
+    <line x1="75" y1="35" x2="90" y2="25" stroke="#333" stroke-width="1.5"/>
+    <polygon points="90,25 85,30 88,22" fill="#333"/>
+    <line x1="80" y1="45" x2="95" y2="35" stroke="#333" stroke-width="1.5"/>
+    <polygon points="95,35 90,40 93,32" fill="#333"/>
+    
+    <text x="60" y="90" text-anchor="middle" class="value">Anode (+)</text>
+    <text x="60" y="102" text-anchor="middle" class="value">Cathode (-)</text>
+  </g>
+  
+  <g transform="translate(180, 50)">
+    <text x="60" y="0" text-anchor="middle" class="label">Physical LED</text>
+    
+    <ellipse cx="60" cy="50" rx="20" ry="25" fill="#ff6666" stroke="#333" stroke-width="1"/>
+    <line x1="40" y1="40" x2="40" y2="60" stroke="#333" stroke-width="2"/>
+    
+    <line x1="50" y1="75" x2="50" y2="110" stroke="#888" stroke-width="2"/>
+    <line x1="70" y1="75" x2="70" y2="120" stroke="#888" stroke-width="2"/>
+    
+    <text x="30" y="55" class="value">Flat</text>
+    <text x="50" y="130" text-anchor="middle" class="value">Short</text>
+    <text x="50" y="142" text-anchor="middle" class="value">(-)</text>
+    <text x="70" y="140" text-anchor="middle" class="value">Long</text>
+    <text x="70" y="152" text-anchor="middle" class="value">(+)</text>
+  </g>
+  
+  <g transform="translate(280, 60)">
+    <text x="0" y="0" class="label">Remember:</text>
+    <text x="0" y="20" class="value">Long leg = Positive (+)</text>
+    <text x="0" y="35" class="value">Short leg = Negative (-)</text>
+    <text x="0" y="50" class="value">Flat side = Negative (-)</text>
+    <text x="0" y="75" class="value">Current flows from</text>
+    <text x="0" y="90" class="value">+ to - (long to short)</text>
+  </g>
+</svg>

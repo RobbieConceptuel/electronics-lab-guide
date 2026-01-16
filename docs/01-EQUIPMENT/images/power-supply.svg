@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 250">
+  <rect width="350" height="250" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 12px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="175" y="20" text-anchor="middle" class="title">Bench Power Supply</text>
+  
+  <!-- Main unit -->
+  <rect x="50" y="40" width="250" height="150" fill="#2a2a2a" rx="8"/>
+  
+  <!-- Display area -->
+  <rect x="70" y="55" width="90" height="35" fill="#111" rx="3"/>
+  <text x="85" y="75" fill="#0f0" font-family="monospace" font-size="14">12.00V</text>
+  <text x="85" y="88" fill="#0f0" font-family="monospace" font-size="10">0.45A</text>
+  
+  <rect x="170" y="55" width="90" height="35" fill="#111" rx="3"/>
+  <text x="185" y="75" fill="#ff0" font-family="monospace" font-size="14">12.00V</text>
+  <text x="185" y="88" fill="#ff0" font-family="monospace" font-size="10">1.00A</text>
+  
+  <text x="115" y="105" text-anchor="middle" class="label" fill="#888">Actual</text>
+  <text x="215" y="105" text-anchor="middle" class="label" fill="#888">Set</text>
+  
+  <!-- Knobs -->
+  <circle cx="100" cy="145" r="20" fill="#444"/>
+  <circle cx="100" cy="145" r="15" fill="#333"/>
+  <line x1="100" y1="130" x2="100" y2="138" stroke="#fff" stroke-width="2"/>
+  <text x="100" y="175" text-anchor="middle" class="label" fill="#888">Voltage</text>
+  
+  <circle cx="200" cy="145" r="20" fill="#444"/>
+  <circle cx="200" cy="145" r="15" fill="#333"/>
+  <line x1="200" y1="130" x2="200" y2="138" stroke="#fff" stroke-width="2"/>
+  <text x="200" y="175" text-anchor="middle" class="label" fill="#888">Current</text>
+  
+  <!-- Output terminals -->
+  <circle cx="270" cy="120" r="10" fill="#c00"/>
+  <text x="270" y="145" text-anchor="middle" class="label" fill="#888">+</text>
+  <circle cx="270" cy="160" r="10" fill="#222"/>
+  <text x="270" y="185" text-anchor="middle" class="label" fill="#888">-</text>
+  
+  <text x="175" y="220" text-anchor="middle" class="label">Set voltage and current limit to protect your circuits</text>
+</svg>

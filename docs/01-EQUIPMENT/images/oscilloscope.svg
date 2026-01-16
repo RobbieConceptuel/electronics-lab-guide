@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 250">
+  <rect width="400" height="250" fill="#ffffff"/>
+  <style>
+    .label { font-family: Arial, sans-serif; font-size: 10px; fill: #333; }
+    .title { font-family: Arial, sans-serif; font-size: 12px; fill: #333; font-weight: bold; }
+  </style>
+  
+  <text x="200" y="20" text-anchor="middle" class="title">Oscilloscope Display</text>
+  
+  <!-- Screen -->
+  <rect x="50" y="35" width="300" height="180" fill="#1a1a1a" rx="5"/>
+  <rect x="60" y="45" width="280" height="160" fill="#001100"/>
+  
+  <!-- Grid -->
+  <g stroke="#003300" stroke-width="0.5">
+    <line x1="60" y1="85" x2="340" y2="85"/>
+    <line x1="60" y1="125" x2="340" y2="125"/>
+    <line x1="60" y1="165" x2="340" y2="165"/>
+    <line x1="130" y1="45" x2="130" y2="205"/>
+    <line x1="200" y1="45" x2="200" y2="205"/>
+    <line x1="270" y1="45" x2="270" y2="205"/>
+  </g>
+  
+  <!-- Waveform -->
+  <path d="M 60,125 
+           L 80,125 L 80,75 L 120,75 L 120,125 
+           L 140,125 L 140,75 L 180,75 L 180,125 
+           L 200,125 L 200,75 L 240,75 L 240,125 
+           L 260,125 L 260,75 L 300,75 L 300,125 
+           L 320,125 L 320,75 L 340,75" 
+        stroke="#0f0" stroke-width="2" fill="none"/>
+  
+  <!-- Labels -->
+  <text x="70" y="58" fill="#0f0" font-family="monospace" font-size="10">CH1: 2V/div</text>
+  <text x="250" y="58" fill="#ff0" font-family="monospace" font-size="10">1ms/div</text>
+  
+  <text x="200" y="235" text-anchor="middle" class="label">Shows signals changing over time - useful for debugging</text>
+</svg>
